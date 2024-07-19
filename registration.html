@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>регистрация</title>
+  <link rel="stylesheet" href="style.css"
+</head>
+<body>
+  <div class="login-light"></div>
+    <div class="login-box">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="ce46f7cf-86f2-445f-823c-e7f568a23eb3">
+            <input type="checkbox" class="input-check" id="input-check">
+            <label for="input-check" class="toggle">
+                <span class="text off">выкл</span>
+                <span class="text on">вкл</span>
+            </label>
+            <div class="light"></div>
+
+            <h2>Регистрация</h2>
+              <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="people"></ion-icon>
+                </span>
+                <input type="text" name="name" required>
+                <label>Ваше имя</label>
+                <div class="input-line"></div>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                </span>
+                <input type="tel" name="tel" required>
+                <label>Ваш телефон</label>
+                <div class="input-line"></div>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" name="email" required>
+                <label>Ваша почта</label>
+                <div class="input-line"></div>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="text" name="text" required>
+                <label>Ваш пароль</label>
+                <div class="input-line"></div>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox"> запомнить меня</label>
+                <a href="forgot-password.html">забыли пароль???</a>
+            </div>
+            <button type="submit">за регестрироватся</button>
+            <div class="register-link">
+                <p class="input-p">у вас есть аккаунт? <a href="login.html">Войти</a></p>
+            </div>
+        </form>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

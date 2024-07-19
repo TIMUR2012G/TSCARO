@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Войти</title>
+  <link rel="stylesheet" href="style.css"
+</head>
+<body>
+  <div class="login-light"></div>
+    <div class="login-box">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="ce46f7cf-86f2-445f-823c-e7f568a23eb3">
+            <input type="checkbox" class="input-check" id="input-check">
+            <label for="input-check" class="toggle">
+                <span class="text off">выкл</span>
+                <span class="text on">вкл</span>
+            </label>
+            <div class="light"></div>
+
+            <h2>покупка доната</h2>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail-open-outline"></ion-icon>
+                </span>
+                <input type="mail" name="mail" required>
+                <label>Ваша почта(для соеденения)</label>
+                <div class="input-line"></div>
+            </div>
+          <select class="input-select" name="" id="" size="10" required>
+            <option value="" selected>click me</option>
+            <option value="">clan global</option>
+            <option value="">clan vip</option>
+            <option value="">clan admin</option>
+            <option value="">moder</option>
+            <option value="">manager</option>
+          </select>
+            <button type="submit"><ion-icon name="airplane-outline"></ion-icon></button>
+        </form>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
